@@ -18,7 +18,7 @@ const style = {
   headerIcon: `text-[#8a939b] text-3xl font-black px-4 hover:text-white cursor-pointer  `,
 };
 
-const Header = () => {
+const Header = (address) => {
   return (
     <div className={style.wrapper}>
       <Link href="/">
@@ -33,7 +33,7 @@ const Header = () => {
         </div>
         <input
           className={style.searchInput}
-          placeholder="Search items, collections, and accounts"
+          placeholder={`connected wallet address: ${address.address}`}
         />
       </div>
       <div className={style.headerItems}>
