@@ -4,7 +4,6 @@ import React from 'react'
 import { AiOutlineSearch } from 'react-icons/ai'
 import { CgProfile } from 'react-icons/cg'
 import { MdOutlineAccountBalanceWallet } from 'react-icons/md'
-import bipinseaLogo from '../assets/bipinsea-logo.jpg'
 
 const style = {
     wrapper: `bg-[#04111d] w-screen px-[1.2rem] py-[0.8rem] flex `,
@@ -23,7 +22,6 @@ const Header = (address) => {
         <div className={style.wrapper}>
             <Link href="/">
                 <div className={style.logoContainer}>
-                    <Image src={bipinseaLogo} height={40} width={40} />
                     <div className={style.logoText}>Bipinsea</div>
                 </div>
             </Link>
