@@ -24,20 +24,20 @@ const Hero = () => {
         <div className={style.contentWrapper}>
           <div className={style.copyContainer}>
             <div className={style.title}>
-              The Fake marketplace for your fake NFTs.
+              Recehan Token
             </div>
             <div className={style.description}>
-              BipinSea is the the fakest ripoff of the real marketplace.
+            Recehan Token is more than a cryptocurrency; it is a movement to honor Indonesia’s past while embracing its future.
             </div>
             <div className={style.ctaContainer}>
-              <button className={style.accentedButton}>Explore</button>
+            <a href="https://opensea.io/CentIndonesia"><button className={style.accentedButton}>Explore</button></a>
               <button className={style.button}>Create</button>
             </div>
           </div>
           <div className={style.cardContainer}>
             <img
               className="rounded-t-lg"
-              src="https://images.saatchiart.com/saatchi/971395/art/8312972/7377855-HSC00001-7.jpg"
+              src="https://i.seadn.io/s/raw/files/f719b1ce949080805036ffafa8879d61.jpg?auto=format&dpr=1&w=1000"
               alt=""
               width={300}
             />
@@ -48,12 +48,12 @@ const Hero = () => {
                 alt=""
               />
               <div className={style.author}>
-                <div className={style.name}>Kaji</div>
+                <div className={style.name}>User</div>
                 <a
                   className="text-[#1868b7]"
-                  href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/2324922113504035910649522729980423429926362207300810036887725141691069366277"
+                  href="https://opensea.io/assets/matic/0x317290feee6dce7ba5223438cbbc9a9e65927718/3/"
                 >
-                  the-fake-nft-collection
+                  Recehan NFT Collection
                 </a>
               </div>
             </div>
