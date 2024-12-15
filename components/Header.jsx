@@ -22,7 +22,7 @@ const Header = (address) => {
         <div className={style.wrapper}>
             <Link href="/">
                 <div className={style.logoContainer}>
-                    <div className={style.logoText}>Bipinsea</div>
+                    <div className={style.logoText}>Recehan Token</div>
                 </div>
             </Link>
             <div className={style.searchBar}>
@@ -35,7 +35,7 @@ const Header = (address) => {
                 />
             </div>
             <div className={style.headerItems}>
-                <Link href="#">
+                <Link href="https://opensea.io/CentIndonesia">
                     <div className={style.headerItem}> Collections </div>
                 </Link>
 
@@ -46,6 +46,7 @@ const Header = (address) => {
                     <MdOutlineAccountBalanceWallet />
                 </div>
             </div>
+            
         </div>
     )
 }
