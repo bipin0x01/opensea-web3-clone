@@ -8,16 +8,16 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <ThirdwebProvider desiredChainId={ChainId.Mainnet}>
         <Head>
-          <title>Bipinsea - I see you NFT Marketplace</title>
+          <title>Recehan - Indonesian Authentic Cryptocurrency</title>
           {/* description */}
           <meta
             name="description"
-            content="Bipinsea - I see you NFT Marketplace"
+            content="Recehan - Indonesian Authentic Cryptocurrency"
           />
           {/* keywords */}
-          <meta name="keywords" content="Bipinsea, NFT, Marketplace" />
+          <meta name="keywords" content="Recehan Token, Recehan NFT, Marketplace" />
           {/* author */}
-          <meta name="author" content="Bipin Thapa" />
+          <meta name="author" content="Recehan Token" />
           {/* viewport */}
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
