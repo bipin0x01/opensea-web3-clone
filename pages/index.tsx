@@ -36,7 +36,7 @@ const Home: NextPage = () => {
             const userDoc = {
                 _type: 'users',
                 _id: address,
-                userName: 'Kaji',
+                userName: 'guest',
                 walletAddress: address,
             }
 
@@ -52,6 +52,7 @@ const Home: NextPage = () => {
             {address ? (
                 <>
                     <Header address={address} />
+                   
                     <Hero />
                 </>
             ) : (
@@ -64,6 +65,7 @@ const Home: NextPage = () => {
                             <a href="/connect">Connect to Wallet</a>
                         </button>
                     </div>
+                    <button onClick=(()=>setAddress(null)) >Disconnect</button></div>
                 </>
             )}
         </div>
